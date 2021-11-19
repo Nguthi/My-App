@@ -1,0 +1,59 @@
+.block{
+	align-content: left;
+	background-color: royalblue;
+	color: black;
+	padding: 10px;
+	margin: 0px;
+}
+.block a{
+	color: black;
+	font-style: bold;
+	width: 30%;
+	padding: 10px;
+}
+.block a:hover{
+	color: red;
+}
+.flex-container{
+	display: flex;
+	background-color: royalblue;
+	flex-wrap: wrap;
+	
+}
+.flex-container a:hover{
+	background-color: red;
+	border-radius: 10px;
+	width: 40%;
+}
+.flex-container a{
+	background-color: royalblue;
+	width: 50%;
+	text-align: center;
+	line-height: 55px;
+	font-size: 30px;
+	font-style: bold;
+	color: black;
+	align-content: center;
+}
+.flex-container form,input{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 8px;
+	margin: 20px;
+	border-radius: 8px;
+	justify-content: space-around;
+}
+.flex-container h4{
+	justify-content: center;
+	text-align: center;
+	margin-left: 50px;
+}
+.flex-container p{
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+}
+.flex-container div h2{
+	text-align: center;
+
+}
